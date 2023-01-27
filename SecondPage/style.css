@@ -1,0 +1,246 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  header {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  nav {
+    width: 100%;
+    color: white;
+  }
+  .shop-online {
+    background-color: beige;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .iphone {
+    width: 100%;
+    height: 650px;
+    background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_medium.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    flex-direction: column;
+    background-position: center;
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+  }
+  .iphone h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  .iphone h2 {
+    font-size: 30px;
+  }
+  .iphone div {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .iphone13{
+    width: 100%;
+    height: 650px;
+    background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_medium.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    flex-direction: column;
+    background-position: center;
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+  }
+  .iphone13 h1 {
+    font-size: 50px;
+    color: beige;
+  }
+  .iphone13 h2 {
+    font-size: 20px;
+    color: beige;
+  }
+  .iphone13 div {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .valentine {
+    width: 100%;
+    height: 650px;
+    background-image: url(https://www.apple.com/v/home/aj/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_medium.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    flex-direction: column;
+    background-position: center;
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    color: purple;
+  }
+  .valentine h2 {
+    font-size: 40px;
+  }
+  .valentine h3 {
+    font-size: 40px;
+  }
+  .valentine div {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  .watch {
+    width: 100%;
+    height: 650px;
+    background-image: url(https://www.apple.com/v/home/aj/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_medium.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    flex-direction: column;
+    background-position: center;
+    display: flex;
+    padding-top: 150px;
+    align-items: center;
+  }
+  .watch h2 {
+    font-size: 50px;
+  }
+  .watch div {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  .entries {
+    width: 100%;
+    height: 650px;
+    background-image: url(https://www.apple.com/v/home/aj/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_medium.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    flex-direction: column;
+    background-position: center;
+    display: flex;
+    padding-top: 150px;
+    align-items: center;
+  }
+  .entries div {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  .entries h1 {
+    font-size: 30px;
+  }
+  .entries h2 {
+    font-size: 30px;
+  }
+  .time {
+   width: 100%;
+   height: 650px;
+   background-image: url(https://www.apple.com/v/home/aj/images/promos/watch-heart-month/promo_watch_heart__dlf8uc5h0kae_medium.jpg);
+   background-repeat: no-repeat;
+   margin-bottom: 20px;
+   flex-direction: column;
+   background-position: center;
+   display: flex;
+   padding-top: 150px;
+   align-items: center;
+  }
+  .time div {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .time h2,h3 {
+    font-size: 30px;
+  }
+  .future {
+    width: 100%;
+    height: 650px;
+    background-image: url(https://www.apple.com/v/home/aj/images/promos/watch-black-unity/promo_watch__fo7j0tnywi2q_medium.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    flex-direction: column;
+    background-position: center;
+    display: flex;
+    padding-top: 150px;
+    align-items: center;
+    color: beige;
+  }
+  .future div {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .future h1 {
+    font-size: 30px;
+  }
+  .future h2,h3 {
+    font-size: 20px;
+  }
+  .card {
+    width: 100%;
+    height: 650px;
+    background-image: url(https://www.apple.com/v/home/aj/images/promos/apple-card/tile__cauwwcyyn9hy_medium.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    flex-direction: column;
+    background-position: center;
+    display: flex;
+    padding-top: 150px;
+    align-items: center;
+  }
+  .card h1 {
+    font-size: 50px;
+  }
+  .card div {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .AppleSky {
+    width: 100%;
+    height: 650px;
+    background-image: url(https://www.apple.com/v/home/aj/images/promos/tv-plus-the-sky-is-everywhere/promo_sky__fu99g2ymabiy_medium.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    flex-direction: column;
+    background-position: center;
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    color: beige;
+  }
+  .AppleSky h1 {
+    font-size: 40px;
+  }
+ .firstBox{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+ .secondBox{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .thirdBox{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  

@@ -1,0 +1,41 @@
+body{
+    background-color: bisque;
+    border: 1px solid purple;
+ }
+ #famous-places{
+    color: maroon;
+    font-style: italic;
+    font-weight: 800;
+    overflow: visible;
+ }
+ .tableHeadings{
+    background-color: pink;
+    color: purple;
+ }
+ .table{
+    background-color: lightgrey;
+ }
+ .beautifulplace{
+    color: purple;
+ }
+ .placesHeadings{
+    color: darkmagenta;
+    margin: auto;
+    padding: auto;
+ }
+ img{
+    margin: auto;
+    border: 3px solid palevioletred;
+    padding: 10px;
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+ }
+ .turistic-spots{
+    color: maroon;
+    font-style: italic;
+    font-weight: bold;
+    overflow: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+ }
