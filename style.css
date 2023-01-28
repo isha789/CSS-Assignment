@@ -1,6 +1,9 @@
 body{
      margin: 0;
 }
+.header2{
+    margin-top: -400px;
+}
 .header{
     height: 450px;
     background-color:#1F2937;
